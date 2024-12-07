@@ -1,6 +1,7 @@
 {
   "name": "task_0",
   "version": "1.0.0",
+  "type": "module",
   "description": "Unit testing with Mocha",
   "main": "0-calcul.js",
   "scripts": {
@@ -9,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^5.1.2",
     "mocha": "^10.8.2"
   }
 }
