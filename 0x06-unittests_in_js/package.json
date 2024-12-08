@@ -1,16 +1,23 @@
 {
-  "name": "task_0",
+  "name": "alx-backend-javascript",
   "version": "1.0.0",
+  "description": "Unit testing project using Sinon",
+  "main": "index.js",
   "type": "module",
-  "description": "Unit testing with Mocha",
-  "main": "0-calcul.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "mocha"
   },
-  "author": "",
+  "keywords": [
+    "unit-testing",
+    "sinon",
+    "mocha",
+    "chai"
+  ],
+  "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^5.1.2",
-    "mocha": "^10.8.2"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.2"
   }
 }
